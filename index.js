@@ -16,7 +16,7 @@ app.use(express.urlencoded({
 }))
 app.use(
     cors({
-      origin: ['https://hirejob-kappa.vercel.app', 'http://localhost:3000'],
+      origin: ['https://letsbuy-ui.vercel.app', 'http://localhost:3000'],a
       credentials: true,
       methods: "GET, POST, PUT, DELETE",
     })
